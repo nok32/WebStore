@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivailovgrad.Data", "Ivailov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivailovgrad.Models", "Ivailovgrad.Models\Ivailovgrad.Models.csproj", "{8B76EA09-74C3-45F0-A0D4-43AF0B326FFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivailovgrad.Models.Tests", "Ivailovgrad.Models.Tests\Ivailovgrad.Models.Tests.csproj", "{B68C5041-0FB2-4F24-86F3-740CAF716D86}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{8B5CDCEB-FEB9-4E38-BC79-FDC820D917C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivailovgrad.Models.Tests", "UnitTests\Ivailovgrad.Models.Tests\Ivailovgrad.Models.Tests.csproj", "{B68C5041-0FB2-4F24-86F3-740CAF716D86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B68C5041-0FB2-4F24-86F3-740CAF716D86} = {8B5CDCEB-FEB9-4E38-BC79-FDC820D917C8}
 	EndGlobalSection
 EndGlobal

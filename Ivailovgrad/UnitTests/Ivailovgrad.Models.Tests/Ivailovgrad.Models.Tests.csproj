@@ -55,7 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ivailovgrad.Models\Ivailovgrad.Models.csproj">
+    <ProjectReference Include="..\..\Ivailovgrad.Models\Ivailovgrad.Models.csproj">
       <Project>{8b76ea09-74c3-45f0-a0d4-43af0b326ffa}</Project>
       <Name>Ivailovgrad.Models</Name>
     </ProjectReference>
